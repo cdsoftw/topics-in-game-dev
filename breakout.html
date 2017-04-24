@@ -1,0 +1,27 @@
+<!--
+=============================================================================================
+ Name        :  breakout.html
+ Author      :  Cole Dapprich
+ Version     :  1.0
+ Course      :  CSCE 4250.001 - Topics in Game Development
+ Description :  This html driver, in collaboration with breakout.js, uses the HTML5 canvas
+                element and basic CSS to create a simple 2D breakout game within a browser.
+                Based on code provided by the Mozilla Developer Network (MDN).
+ Copyright   :  © 2017 CDsoftworks ( AMDG )  - FREE AND OPEN SOURCE. No rights reserved.
+=============================================================================================
+-->
+
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8" />
+        <title>Breakout Clone - Cole Dapprich</title>
+        
+        <!-- basic CSS code for centering the game in the browser window and drawing a white background with black borders -->
+        <style>* { padding: 0; margin: 0; } canvas { background: #FFF; display: block; border: 1px solid black; margin: 0 auto; }</style>
+    </head>
+    <body onload = "main()">
+        <canvas id = "canvas" width = "475" height = "320"></canvas>
+        <script src = "breakout.js"></script> <!-- THE NUMBERS 2 - 6 CAN BE ADDED TO THE FILENAME TO RUN DIFFERENT VERSIONS OF THE GAME -->
+    </body>
+</html>
