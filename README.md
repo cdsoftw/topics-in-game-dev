@@ -1,4 +1,4 @@
-# CSCE4250
+# TopicsInGameDev
 This repository contains source code I used in my research project for Topics of Game Development at the University of North Texas.
 
 Using HTML5 and CSS, I created 5 different versions of a Breakout clone, each designed to have  varying degrees of perceived effectance
